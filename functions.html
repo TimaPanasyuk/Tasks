@@ -1,0 +1,83 @@
+<html>
+
+<body>
+
+  <script>
+
+
+function sum(a, b) {  
+   return a+b;
+}
+
+
+function sub(a, b) { 
+   return a-b;
+}
+
+
+function mul(a,b) { 
+   return a*b;
+}
+
+function percent(a,b) { 
+   return a/100*b;
+}
+
+function div(a,b) { 
+   return a/b;
+}
+
+function integerDiv(a,b) { 
+   return a-a%b/b;
+}
+
+function abs(a) {
+   let r=(a<0) ? -a: a ;   
+    return r;
+}  
+
+function factorial(a) { 
+   if (a<0)
+   return undefined;
+   if (a=0)
+   return 1;
+   let i = 1;
+   let b=1;   
+while (i <= a)  { 
+   b=b*i;
+  i++;
+}
+   return b;
+}
+
+function round(a) {
+   a = a.toFixed();
+    return a; 
+}
+
+function sin(a) {
+  a = a-(a**3)/6+(a**5)/120; 
+return a;
+}
+
+function cos(a) {
+   a = 1-(a**2)/2+(a**4)/24;
+    return a; 
+}
+
+function tg(a) {
+    return sin(a)/cos(a); 
+}
+
+function ctg(a) {
+    return cos(a)/sin(a);
+}
+
+
+</script> 
+
+  
+
+</body>
+
+</html>
